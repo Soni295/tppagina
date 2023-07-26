@@ -1,0 +1,70 @@
+const CATEGORIES = {
+  PACKING_BAGS: "bolsas empaque",
+  GARBAGE_BAGS: "bolsas residuo",
+  FOOD_FILM: "film para alimentos",
+};
+export const elements = [
+  {
+    id: 1,
+    img: "https://i0.wp.com/epack.com.ar/wp-content/uploads/2020/07/Bobinas-de-arranque-INPLA-20x30-1.jpg?fit=2048%2C2046&ssl=1",
+    category: CATEGORIES.PACKING_BAGS,
+    title: "bolsas arranque 20x30",
+    price: 1430,
+  },
+  {
+    id: 2,
+    img: "https://www.papelerarivadavia.com.ar/wp-content/uploads/2020/09/RD2535.jpg",
+    category: CATEGORIES.PACKING_BAGS,
+    title: "bolsas arranque 25x35",
+    price: 1430,
+  },
+  {
+    id: 3,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRms0vMMnC8dVrIAaybTIyX1wtATcqlIZw3OQ&usqp=CAU",
+    category: CATEGORIES.PACKING_BAGS,
+    title: "bolsas arranque 30x40",
+    price: 1430,
+  },
+  {
+    id: 4,
+    img: "https://www.flexipack.com.ar/Image/0/450_450-ecofilm.jpg",
+    category: CATEGORIES.FOOD_FILM,
+    title: "film de 200 metros",
+    price: 1800,
+  },
+  {
+    id: 5,
+    img: "https://http2.mlstatic.com/D_NQ_NP_735194-MLA69590030791_052023-W.jpg",
+    category: CATEGORIES.FOOD_FILM,
+    title: "film de 300 metros",
+    price: 2500,
+  },
+  {
+    id: 6,
+    img: "https://americadist.com.ar/images/product_image/3654/0?dpr=2.625&fit=crop&h=400&q=80&version=eb2ff&w=400",
+    category: CATEGORIES.FOOD_FILM,
+    title: "film de 30 metros",
+    price: 500,
+  },
+  {
+    id: 7,
+    img: "https://d3ugyf2ht6aenh.cloudfront.net/stores/894/152/products/bolsas-0141-ae839ebd8aa499db4a15126174279459-240-011-0f464530e00cb8e63816108166010553-640-0.jpg",
+    category: CATEGORIES.GARBAGE_BAGS,
+    title: "bolsas residuo 45x60",
+    price: 550,
+  },
+  {
+    id: 8,
+    img: "https://d3ugyf2ht6aenh.cloudfront.net/stores/894/152/products/bolsas-0141-ae839ebd8aa499db4a15126174279459-240-011-0f464530e00cb8e63816108166010553-640-0.jpg",
+    category: CATEGORIES.GARBAGE_BAGS,
+    title: "bolsas residuo 50x70",
+    price: 700,
+  },
+  {
+    id: 9,
+    img: "https://d3ugyf2ht6aenh.cloudfront.net/stores/894/152/products/bolsas-0141-ae839ebd8aa499db4a15126174279459-240-011-0f464530e00cb8e63816108166010553-640-0.jpg",
+    category: CATEGORIES.GARBAGE_BAGS,
+    title: "bolsas residuo 60x90",
+    price: 1200,
+  },
+];

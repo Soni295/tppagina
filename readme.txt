@@ -1,0 +1,1 @@
+como animacion crear un spiner para la pantalla de carga, formulario de contacto
