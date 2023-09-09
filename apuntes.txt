@@ -1,0 +1,7 @@
+To Do
+    * Navbar
+    * arreglar el buscador que emule una busqueda por query
+    *
+
+Backend
+    * ofertas, logica de ofertas, info de ofertas
